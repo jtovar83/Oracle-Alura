@@ -36,8 +36,8 @@ function limpiarInput() {
 function generarNumeroAleatorio(){
    let numeroGenerado = Math.floor(Math.random()*numeroMaximo)+1; 
 
-   console.log(numeroGenerado);
-   console.log(listaNumeroIntentado);
+   //console.log(numeroGenerado);
+   //console.log(listaNumeroIntentado);
    //Si ya fueron sorteados todos los numeros aleatorios
    if (listaNumeroIntentado.length == numeroMaximo){
     asignaTextoElemento('p', '¡¡Lo sentimos, ya fueron sorteados la cantidad máxima de números!! ');
